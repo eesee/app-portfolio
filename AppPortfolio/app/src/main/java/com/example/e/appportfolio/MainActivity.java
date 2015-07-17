@@ -18,30 +18,9 @@ public class MainActivity extends ActionBarActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 
     /** Called when the user touches the button */
-    public void sendMessage1(View view) {
+    public void sendSpotify(View view) {
         // Do something in response to button click
 
         Context context = getApplicationContext();
@@ -53,7 +32,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage2(View view) {
+    public void sendScores(View view) {
         // Do something in response to button click
 
         Context context = getApplicationContext();
@@ -65,7 +44,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage3(View view) {
+    public void sendLibrary(View view) {
         // Do something in response to button click
 
         Context context = getApplicationContext();
@@ -77,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage4(View view) {
+    public void sendBuild(View view) {
         // Do something in response to button click
 
         Context context = getApplicationContext();
@@ -89,7 +68,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage5(View view) {
+    public void sendXyz(View view) {
         // Do something in response to button click
 
         Context context = getApplicationContext();
@@ -101,7 +80,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage6(View view) {
+    public void sendCapstone(View view) {
         // Do something in response to button click
 
         Context context = getApplicationContext();
